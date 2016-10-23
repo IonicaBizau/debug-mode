@@ -1,6 +1,6 @@
 {
   "name": "debug-mode",
-  "description": "Detect if Node.js is in debug mode.",
+  "description": "Detect if a Node.js process is in the debug mode.",
   "keywords": [
     "debug",
     "mode",
