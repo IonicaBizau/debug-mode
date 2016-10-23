@@ -40,8 +40,8 @@
   },
   "homepage": "https://github.com/IonicaBizau/debug-mode#readme",
   "blah": {
-      "thanks": [
-          "Thanks to [**@gabipetrovay**](https://github.com/gabipetrovay)'s [answer](http://stackoverflow.com/a/13454643/1420197) posted on StackOverflow. :cake:"
-      ]
+    "thanks": [
+      "Thanks to [**@gabipetrovay**](https://github.com/gabipetrovay)'s [answer](http://stackoverflow.com/a/13454643/1420197) posted on StackOverflow. :cake:"
+    ]
   }
 }
