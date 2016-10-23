@@ -58,6 +58,9 @@ to [set up a recurring donation, via Patreon][patreon]. :rocket:
 
 Thanks! :heart:
 
+## :cake: Thanks
+Thanks to [**@gabipetrovay**](https://github.com/gabipetrovay)'s [answer](http://stackoverflow.com/a/13454643/1420197) posted on StackOverflow. :cake:
+
 
 ## :scroll: License
 
