@@ -1,0 +1,42 @@
+{
+  "name": "debug-mode",
+  "description": "Detect if Node.js is in debug mode.",
+  "keywords": [
+    "debug",
+    "mode",
+    "detect",
+    "if",
+    "node",
+    "js",
+    "is",
+    "in"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "build/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "scripts/",
+    "cli.js",
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/debug-mode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/debug-mode/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/debug-mode#readme"
+}
