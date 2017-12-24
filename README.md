@@ -10,7 +10,11 @@
 ## :cloud: Installation
 
 ```sh
-$ npm i --save debug-mode
+# Using npm
+npm install --save debug-mode
+
+# Using yarn
+yarn add debug-mode
 ```
 
 
