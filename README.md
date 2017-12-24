@@ -31,7 +31,7 @@ console.log(debugMode());
 // break in example/index.js:1
 // > 1 "use strict";
 //   2
-//   3 const debugMode = require("../lib");
+//   3 const debugMode = require("debug-mode/lib");
 // debug> c
 // < true
 ```
@@ -44,7 +44,9 @@ There are few ways to get help:
 
  1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
  2. For bug reports and feature requests, open issues. :bug:
+
  3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
+
 
 
 ## :memo: Documentation
@@ -87,6 +89,7 @@ Thanks to [**@gabipetrovay**](https://github.com/gabipetrovay)'s [answer](http:/
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
 
+ - [`benner-scripts`](https://npmjs.com/package/benner-scripts) (by Hugo José Gonçalves)—Benner Scripts
  - [`tilda`](https://github.com/IonicaBizau/tilda)—Tiny module for building command line tools.
 
 ## :scroll: License
