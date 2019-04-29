@@ -1,13 +1,21 @@
 "use strict";
 
 const tester = require("tester")
-    , debugMode = require("..")
     ;
 
 tester.describe("debug-mode", t => {
+    let debugMode = require("..")
+    let libPath = require.resolve("..")
+
+    const reloadModule = () => {
+        delete require.cache[libPath]
+        debugMode = require("..")
+    }
+
     t.should("Detect if a Node.js process is in the debug mode.", () => {
-        t.expect(debugMode()).toEqual(false);
+        t.expect(debugMode).toEqual(false);
         global.v8debug = {}
-        t.expect(debugMode()).toEqual(true);
+        reloadModule()
+        t.expect(debugMode).toEqual(true);
     });
 });

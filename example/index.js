@@ -1,8 +1,8 @@
 "use strict";
 
-const debugMode = require("../lib");
+const isDebugging = require("../lib");
 
-console.log(debugMode());
+console.log(isDebugging);
 // $ node example/
 // false
 
