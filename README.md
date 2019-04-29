@@ -3,9 +3,7 @@
 
 # debug-mode
 
- [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/debug-mode.svg)](https://www.npmjs.com/package/debug-mode) [![Downloads](https://img.shields.io/npm/dt/debug-mode.svg)](https://www.npmjs.com/package/debug-mode) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
-
-<a href="https://www.buymeacoffee.com/H96WwChMy" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee"></a>
+ [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/debug-mode.svg)](https://www.npmjs.com/package/debug-mode) [![Downloads](https://img.shields.io/npm/dt/debug-mode.svg)](https://www.npmjs.com/package/debug-mode)
 
 > Detect if a Node.js process is in the debug mode.
 
@@ -25,9 +23,9 @@ yarn add debug-mode
 
 
 ```js
-const debugMode = require("debug-mode");
+const isDebugging = require("debug-mode");
 
-console.log(debugMode());
+console.log(isDebugging);
 // $ node example/
 // false
 
@@ -59,10 +57,7 @@ There are few ways to get help:
 
 
 ### `debugMode()`
-Detect if Node.js is in debug mode.
-
-#### Return
-- **Boolean** `true` if the debug mode is enabled, `false` otherwise.
+A boolean: `true` if the debug mode is enabled, `false` otherwise.
 
 
 
@@ -91,7 +86,8 @@ Thanks! :heart:
 
 
 ## :cake: Thanks
-Thanks to [**@gabipetrovay**](https://github.com/gabipetrovay)'s [answer](http://stackoverflow.com/a/13454643/1420197) posted on StackOverflow. :cake:
+The module is highly based on the answers [to this question](https://stackoverflow.com/q/6889470/1420197), especially [@bentael's answer](https://stackoverflow.com/a/45074641/1420197).
+There is a really interesting discussion in the [Node.js project](https://github.com/nodejs/node/issues/9617) about detecting the debug mode.
 
 ## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
