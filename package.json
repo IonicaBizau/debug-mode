@@ -43,7 +43,8 @@
   "homepage": "https://github.com/IonicaBizau/debug-mode#readme",
   "blah": {
     "thanks": [
-      "Thanks to [**@gabipetrovay**](https://github.com/gabipetrovay)'s [answer](http://stackoverflow.com/a/13454643/1420197) posted on StackOverflow. :cake:"
+      "The module is highly based on the answers [to this question](https://stackoverflow.com/q/6889470/1420197), especially [@bentael's answer](https://stackoverflow.com/a/45074641/1420197).",
+      "There is a really interesting discussion in the [Node.js project](https://github.com/nodejs/node/issues/9617) about detecting the debug mode."
     ]
   },
   "devDependencies": {
