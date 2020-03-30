@@ -42,6 +42,8 @@ console.log(isDebugging);
 
 
 
+
+
 ## :question: Get Help
 
 There are few ways to get help:
@@ -50,6 +52,7 @@ There are few ways to get help:
  2. For bug reports and feature requests, open issues. :bug:
 
  3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
+
 
 
 
@@ -89,12 +92,6 @@ Thanks! :heart:
 The module is highly based on the answers [to this question](https://stackoverflow.com/q/6889470/1420197), especially [@bentael's answer](https://stackoverflow.com/a/45074641/1420197).
 There is a really interesting discussion in the [Node.js project](https://github.com/nodejs/node/issues/9617) about detecting the debug mode.
 
-## :dizzy: Where is this library used?
-If you are using this library in one of your projects, add it in this list. :sparkles:
-
-
- - [`benner-scripts`](https://npmjs.com/package/benner-scripts) (by Hugo José Gonçalves)—Benner Scripts
- - [`tilda`](https://github.com/IonicaBizau/tilda)—Tiny module for building command line tools.
 
 ## :scroll: License
 
